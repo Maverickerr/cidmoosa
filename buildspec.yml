@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-        - xargs sudo yum install requirement.txt
+        - xargs sudo yum install requirements.txt
   build:
     commands:
       - echo Build started on `date`
